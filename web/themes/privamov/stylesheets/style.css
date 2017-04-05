@@ -1,0 +1,62 @@
+body {
+	padding-top: 70px;
+}
+
+.people-info a[href^="mailto:"], .people-info a[href^="mailto:"]:hover {
+	font-size: 0.85em;
+	color: black;
+}
+
+.abstract, .justified {
+	text-align: justify;
+}
+
+.people {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	background-color: #ecf0f1;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 19px;
+}
+
+.people-picture  img {
+	width: 70px;
+	border-radius: 150px;
+	float: left;
+}
+
+.people .row {
+	margin-bottom: 15px;
+}
+
+.people .row:last-child {
+	margin-bottom: 0px;
+}
+
+.people-info {
+	margin-left: 85px;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+table {
+	width: 100%;
+  max-width: 100%;
+  margin-bottom: 21px;
+}
+
+table>thead>tr>th {
+	vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+	padding: 8px;
+}
+
+table>tbody>tr>td {
+	padding: 8px;
+	border-top: 1px solid #ddd;
+}

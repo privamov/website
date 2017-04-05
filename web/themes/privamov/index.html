@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    {% if meta.description %}
+	    <meta name="description" content="{{ meta.description }}">
+    {% endif %}{% if meta.robots %}
+	    <meta name="robots" content="{{ meta.robots }}">
+    {% endif %}
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+  <link rel="stylesheet" href="{{ theme_url }}/stylesheets/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="{{ theme_url }}/stylesheets/style.css" type="text/css" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="{{ base_url }}" class="navbar-brand">{{ site_title }}</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li{% if request_path == '/' %} class="active"{% endif %}><a href="{{ base_url }}">Project Overview</a></li>
+                <li{% if request_path == '/members' %} class="active"{% endif %}><a href="{{ base_url }}/members">Members</a></li>
+                <li{% if request_path starts with '/publications' %} class="active"{% endif %}><a href="{{ base_url }}/publications">Publications</a></li>
+                <li{% if request_path == '/dataset' %} class="active"{% endif %}><a href="{{ base_url }}/dataset">Get the dataset</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content" class="container">
+        {{ content }}
+    </div>
+    <footer>
+        <hr />
+        <div class="container">
+            © Copyright 2014-{{ 'now'|date('Y') }} Priva'Mov.
+        </div>
+    </footer>
+</body>
+</html>
