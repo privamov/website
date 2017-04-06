@@ -64,7 +64,11 @@ Title: Members
 <div class="container people">
 <div class="col-sm-3">
     <div class="people-picture" markdown="1">![Patrick](%base_url%/media/people/patrick.jpg)</div>
-    <p class="people-info" markdown="1">[Patrick Bonnel](http://www.let.fr/BONNEL-Patrick)</p>
+    <p class="people-info" markdown="1">[Patrick Bonnel](http://www.laet.science/BONNEL-Patrick)</p>
+</div>
+<div class="col-sm-3">
+    <div class="people-picture" markdown="1">![Louafi](%base_url%/media/people/louafi.jpg)</div>
+    <p class="people-info" markdown="1">[Louafi Bouzouina](http://www.laet.science/BOUZOUINA-Louafi)</p>
 </div>
 </div>
 
