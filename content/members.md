@@ -89,4 +89,10 @@ Title: Members
         *Postdoc*
     </p>
 </div>
+<div class="col-sm-3">
+    <div class="people-picture" markdown="1">![Stéphane](%base_url%/media/people/anonymous.png)</div>
+    <p class="people-info" markdown="1">
+        Stéphane d'Alu
+    </p>
+</div>
 </div>
