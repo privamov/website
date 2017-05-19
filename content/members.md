@@ -34,7 +34,7 @@ Title: Members
 </div>
 </div>
 
-### [INRIA – Privatics](http://www.citi-lab.fr/team/privatics/)
+### [INRIA – Privatics](https://team.inria.fr/privatics/)
 <div class="container people">
 <div class="col-sm-3">
     <div class="people-picture" markdown="1">![Cédric](%base_url%/media/people/cedric.jpg)</div>
@@ -72,7 +72,7 @@ Title: Members
 </div>
 </div>
 
-### [INRIA – Urbanet](http://www.citi-lab.fr/team/urbanet/)
+### [INRIA – Urbanet](https://team.inria.fr/urbanet/fr/)
 <div class="container people">
 <div class="col-sm-3">
     <div class="people-picture" markdown="1">![Hervé](%base_url%/media/people/herve.jpg)</div>
@@ -90,9 +90,9 @@ Title: Members
     </p>
 </div>
 <div class="col-sm-3">
-    <div class="people-picture" markdown="1">![Stéphane](%base_url%/media/people/anonymous.png)</div>
+    <div class="people-picture" markdown="1">![Stéphane](%base_url%/media/people/stephane.jpg)</div>
     <p class="people-info" markdown="1">
-        Stéphane d'Alu
+        [Stéphane d'Alu](http://perso.citi-lab.fr/sdalu/)
     </p>
 </div>
 </div>
